@@ -58,4 +58,4 @@ docker compose up --build -d
 
 发布前执行 `npm test` 和 `npm run build`，检查暂存文件不包含真实密钥、账户信息、二维码截图、环境变量文件或本机路径。`node_modules/`、`dist/`、`output/` 和本地运行数据不进入仓库。测试中的固定密钥为公开 RFC 向量或示例，不对应真实账户。
 
-项目尚未选择源码许可证；公开仓库不等于授予使用、修改或再分发许可。第三方依赖保留各自许可证，见 `public/third-party-licenses.txt`。
+本项目采用 [MIT 许可证](LICENSE)，版权归属为 © 2026 Yiya-ai。第三方依赖保留各自许可证，见 `public/third-party-licenses.txt`。
