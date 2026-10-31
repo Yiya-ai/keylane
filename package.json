@@ -1,0 +1,20 @@
+{
+  "name": "keylane",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Ephemeral browser-only two-factor authentication toolkit",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5178 --strictPort",
+    "build": "node scripts/licenses.mjs && vite build",
+    "preview": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "jsqr": "1.4.0",
+    "qrcode": "1.5.4"
+  },
+  "devDependencies": {
+    "vite": "8.3.5"
+  }
+}

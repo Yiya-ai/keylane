@@ -1,0 +1,45 @@
+node_modules/
+dist/
+output/
+*.keylane.json
+.env*
+
+# Credentials and private exports
+*.pem
+*.key
+*.p12
+*.pfx
+*.cookie
+*.cookies.txt
+cookies.txt
+*.session
+credentials.json
+.npmrc
+.ssh/
+
+# Local runtime, backup and QA artifacts
+data/
+exports/
+downloads/
+logs/
+tmp/
+temp/
+backups/
+screenshots/
+test-results/
+playwright-report/
+coverage/
+.cache/
+*.log
+*.tmp
+*.bak
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor and OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini

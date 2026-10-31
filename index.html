@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'" />
+    <meta name="description" content="纯浏览器 2FA 工具：获取验证码、生成随机密钥与二维码、识别二维码。无需注册，不保存输入。" />
+    <meta name="theme-color" content="#146b5a" />
+    <title>Keylane · 即用即走的 2FA 工具</title>
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <script type="module" src="/src/app.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <noscript>Keylane 在浏览器中计算验证码，请启用 JavaScript 后使用。</noscript>
+  </body>
+</html>
